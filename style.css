@@ -1,0 +1,124 @@
+.list ul{
+
+    padding-right: 33px;
+    margin: 20px;
+    justify-content: right;
+    list-style: none;
+    display: flex;
+}
+
+.list ul .image{
+    margin-right: 37px;
+}
+
+.search{
+    margin-right: 62px;
+    margin-top: 85px;
+    text-align: center;
+}
+
+.list ul a{
+    color: black;
+    text-decoration: none;
+}
+
+.list ul a:hover{
+    text-decoration: underline;
+}
+
+form{
+    padding-left: 33px;
+    align-items: center;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+}
+
+form .btn, .btnI{
+    margin-left: 40px;
+    width: 127px;
+    height: 36px;
+}
+
+.search img{
+    height: 105px;
+    padding-bottom: 12px;
+    padding-left: 58px;
+}
+.search .box{
+    margin-left: 42px;
+    border-width: 1px;
+    font-size: 18px;
+    border-radius: 32px;
+    width: 582px;
+    height: 33px;
+    padding-left: 20px;
+}
+
+.search .btn{
+    margin-left: 40px;
+    width: 127px;
+    height: 36px;
+}
+
+form .button{
+    margin-top: 17px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.advanced-title{
+    color: #d93025;
+    font-size: 25px;
+    margin: 25px 35px;
+}
+
+.advanced-search{
+    margin-top: 85px;
+}
+
+.advanced-search .advanced-labb{
+    color: #000000b3;
+    font-size: 20px;
+    margin: 147px 35px;
+}
+
+.advanced-search .labels{
+    width: 694px;
+    margin-top: 31px;
+    font-size: 18px;
+    margin-right: 566px;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+
+}
+
+.advanced-search .advanced-labels{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 46px;
+}
+
+.advanced-search .advanced-labels input{
+    height: 19px;
+    border-width: 0.4px;
+    width: 468px;
+}
+
+.advanced-search .labels .advanced-subm{
+    box-shadow: none;
+    background-color: #4d90fe;
+    background-image: -webkit-linear-gradient(top,#4d90fe,#4787ed);
+    background-image: -moz-linear-gradient(top,#4d90fe,#4787ed);
+    background-image: -ms-linear-gradient(top,#4d90fe,#4787ed);
+    background-image: -o-linear-gradient(top,#4d90fe,#4787ed);
+    background-image: linear-gradient(top,#4d90fe,#4787ed);
+    border: 1px solid #3079ed;
+    color: #fff;
+    width: 120px;
+    height: 30px;
+    margin-left: 575px;
+}
